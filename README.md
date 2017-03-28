@@ -1,9 +1,8 @@
-# ${1:Infinite Runner - Game Concept}
+# Infinite Runner - Game Concept
 
 This Unity3D project is an early day/night cycle experiment for an infinite runner game I'm working on.
 
 So far, I’ve only set up the color pallets for the early-morning to mid-morning section of the day.
-
 ![alt text](https://media.giphy.com/media/3og0IvFObBEU6TZnoc/giphy.gif “Game Timelapse”)
 
 
