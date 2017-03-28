@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{F3CD8A24-822C-F9D6-3A04-E164F89F547A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AmplifyBloom\Plugins\AmplifyBloomEffect.cs" />
+     <Compile Include="Assets\AmplifyBloom\Samples\Demo\Scripts\DemoCameraMovement.cs" />
+     <Compile Include="Assets\AmplifyBloom\Samples\Demo\Scripts\DemoFPSCounter.cs" />
+     <Compile Include="Assets\AmplifyBloom\Samples\Demo\Scripts\DemoMainUI.cs" />
+     <Compile Include="Assets\AmplifyBloom\Samples\Demo\Scripts\DemoUIElement.cs" />
+     <Compile Include="Assets\AmplifyBloom\Samples\Demo\Scripts\DemoUISlider.cs" />
+     <Compile Include="Assets\AmplifyBloom\Samples\Demo\Scripts\DemoUIToggle.cs" />
+     <Compile Include="Assets\Colorful Fog\ColorfulFog.cs" />
+     <Compile Include="Assets\SVG Importer Tests\Tests\BindPoseExample.cs" />
+     <Compile Include="Assets\SVG Importer\Example Projects\Curves Demo\Scripts\Animation\AnimationActions.cs" />
+     <Compile Include="Assets\SVG Importer\Example Projects\Curves Demo\Scripts\Audio\AudioCameraZoom.cs" />
+     <Compile Include="Assets\SVG Importer\Example Projects\Curves Demo\Scripts\Audio\AudioColor.cs" />
+     <Compile Include="Assets\SVG Importer\Example Projects\Curves Demo\Scripts\Audio\AudioEvent.cs" />
+     <Compile Include="Assets\SVG Importer\Example Projects\Curves Demo\Scripts\Audio\AudioMove.cs" />
+     <Compile Include="Assets\SVG Importer\Example Projects\Curves Demo\Scripts\Audio\AudioRotate.cs" />
+     <Compile Include="Assets\SVG Importer\Example Projects\Curves Demo\Scripts\Audio\AudioScale.cs" />
+     <Compile Include="Assets\SVG Importer\Example Projects\Curves Demo\Scripts\Audio\AudioSpectrum.cs" />
+     <Compile Include="Assets\SVG Importer\Example Projects\Curves Demo\Scripts\Camera\CameraSorting.cs" />
+     <Compile Include="Assets\SVG Importer\Example Projects\Curves Demo\Scripts\Layout\Instanced.cs" />
+     <Compile Include="Assets\SVG Importer\Example Projects\Curves Demo\Scripts\Layout\Instancer.cs" />
+     <Compile Include="Assets\SVG Importer\Example Projects\Curves Demo\Scripts\Layout\InstancerGrid.cs" />
+     <Compile Include="Assets\SVG Importer\Example Projects\Curves Demo\Scripts\Layout\InstancerSpiral.cs" />
+     <Compile Include="Assets\SVG Importer\Example Projects\Curves Demo\Scripts\Utils\OpenUrl.cs" />
+     <Compile Include="Assets\SVG Importer\Example Projects\Hologram Demo\Scripts\HologramController.cs" />
+     <Compile Include="Assets\SVG Importer\Example Projects\Realtime Import Demo\Scripts\RealtimeImportDemo.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Clipper\SVGClipPath.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Clipper\clipper.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Animation\SVGFrameAnimator.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Animation\SVGLegacyAnimator.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Data\QuadTree.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Data\SVGDepthTree.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Data\SVGImporterSettings.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Data\SVGLineData.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Fills\CCGradient.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Fills\SVGFill.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\CSS\CSSParser.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\RenderingEngine\SVGConicalGradientBrush.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\RenderingEngine\SVGGraphics.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\RenderingEngine\SVGLinearGradientBrush.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\RenderingEngine\SVGRadialGradientBrush.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\BasicShapes\SVGCircleElement.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\BasicShapes\SVGEllipseElement.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\BasicShapes\SVGLineElement.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\BasicShapes\SVGPolygonElement.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\BasicShapes\SVGPolylineElement.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\BasicShapes\SVGRectElement.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\BasicTypes\SVGColor.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\BasicTypes\SVGLength.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\BasicTypes\SVGPaintable.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\BasicTypes\SVGParentable.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\BasicTypes\SVGTransformable.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Coordinate_Transform_Units\SVGMatrix.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Coordinate_Transform_Units\SVGTransform.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Coordinate_Transform_Units\SVGTransformList.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\DocumentStructure\SVGDocument.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\DocumentStructure\SVGElement.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\GradientsNPatterns\SVGConicalGradientElement.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\GradientsNPatterns\SVGGradientElement.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\GradientsNPatterns\SVGLinearGradientElement.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\GradientsNPatterns\SVGRadialGradientElement.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\GradientsNPatterns\SVGStopElement.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Others\SVGClipPathElement.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\Interfaces\ISVGDrawable.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\Interfaces\ISVGElement.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\SVGPathElement.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\SVGPathSeg.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\SVGPathSegArcAbs.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\SVGPathSegArcRel.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\SVGPathSegClosePath.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\SVGPathSegCurvetoCubic.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\SVGPathSegCurvetoCubicAbs.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\SVGPathSegCurvetoCubicRel.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\SVGPathSegCurvetoCubicSmoothAbs.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\SVGPathSegCurvetoCubicSmoothRel.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\SVGPathSegCurvetoQuadratic.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\SVGPathSegCurvetoQuadraticAbs.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\SVGPathSegCurvetoQuadraticRel.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\SVGPathSegCurvetoQuadraticSmoothAbs.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\SVGPathSegCurvetoQuadraticSmoothRel.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\SVGPathSegLinetoAbs.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\SVGPathSegLinetoHorizontalAbs.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\SVGPathSegLinetoHorizontalRel.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\SVGPathSegLinetoRel.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\SVGPathSegLinetoVerticalAbs.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\SVGPathSegLinetoVerticalRel.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\SVGPathSegList.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\SVGPathSegMovetoAbs.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Paths\SVGPathSegMovetoRel.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Utilities\DOMException.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Utilities\LiteStack.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Utilities\SVGColorExtractor.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Utilities\SVGException.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Utilities\SVGLengthConvertor.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Utilities\SVGStringExtractor.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\SVG\DOM\Utilities\SVGViewport.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\XML Parser\AttributeList.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\XML Parser\SVGParser.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Implementation\XML Parser\SmallXmlParser.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Interfaces\ISVGModify.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Interfaces\ISVGReference.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Interfaces\ISVGRenderer.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Interfaces\ISVGShape.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Math\SVGBezier.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Math\SVGBounds.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Math\SVGGeom.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Math\SVGMath.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Mesh\SVGCombineMesh.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Mesh\SVGGeomUtils.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Mesh\SVGLineUtils.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Mesh\SVGMesh.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Mesh\SVGMeshCutter.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Mesh\SVGMeshUtils.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Mesh\SVGSimplePath.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Modifiers\SVGBlurModifier.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Modifiers\SVGColorModifier.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Modifiers\SVGModifier.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Modifiers\SVGSphereModifier.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Modifiers\SVGTwirlModifier.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\Modifiers\SVGUVModifier.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\SVGAsset.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\SVGAssetImport.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\SVGAtlas.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\SVGCollider2D.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\SVGDocumentAsset.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\SVGImage.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\SVGPath.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\SVGRenderTexture.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\SVGRenderer.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\SVGSorter.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\SVGStrokeRenderer.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Core\StrokeRendererLegacy.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Debug\DebugSVGLayers.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Debug\SVGDebug.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Debug\SVGDebugMesh.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Debug\SVGDebugPoints.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\LibTessDotNet\Dict.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\LibTessDotNet\Geom.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\LibTessDotNet\Mesh.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\LibTessDotNet\MeshUtils.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\LibTessDotNet\PriorityHeap.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\LibTessDotNet\PriorityQueue.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\LibTessDotNet\Sweep.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\LibTessDotNet\Tess.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Utils\FileSizeFormatProvider.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Utils\SVGArrayUtils.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Utils\SVGCamera.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Utils\SVGShader.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Utils\SVGTransform2D.cs" />
+     <Compile Include="Assets\SVG Importer\Plugins\Utils\SVGUtils.cs" />
+     <Compile Include="Assets\Scripts\FogData.cs" />
+     <Compile Include="Assets\_Scripts\CameraMove.cs" />
+     <Compile Include="Assets\_Scripts\Clouds.cs" />
+     <Compile Include="Assets\_Scripts\DayNightCycle.cs" />
+     <Compile Include="Assets\_Scripts\GameManager.cs" />
+     <Compile Include="Assets\_Scripts\Sun.cs" />
+     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\Resources\UI\UILegacy.shader" />
+     <None Include="Assets\AmplifyBloom\Resources\BloomFrag.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Colorful Fog\Depth.shader" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\Resources\UI\UI.shader" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\Others\SolidColorTexOverlayAlphaBlended.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\Shaders\SkyGradient.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\Standard\StandardSVG.shader" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\Others\SolidColorDiffuseOpaque.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\Standard\StandardSpecularSVG.shader" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\SVGImporterGradientCG.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\AmplifyBloom\Resources\Bloom.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\AmplifyBloom\Readme.txt" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\Resources\Gradient Fill\GradientColorAlphaBlendedAntialiased.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\Resources\GUI\InverseShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\Others\SolidColorMultiply.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\SVGImporterUICG.cginc" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\SVGImporterSolidCG.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\Resources\Gradient Fill\GradientColorAlphaBlendedAntialiasedCompressed.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\Others\GradientColorMultiply.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\Others\SolidColorAdditive.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\Resources\Gradient Fill\GradientColorAlphaBlended.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\Resources\Gradient Fill\GradientColorOpaque.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\SVG Importer\changelog.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Colorful Fog\ColorfulFog_SM2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\AmplifyBloom\License.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\Others\SolidColorDiffuseAlphaBlended.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\Resources\UI\UIAntialiased.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\Others\GradientColorAdditive.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\Standard\UnitySVG.cginc" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\Resources\Solid Fill\SolidColorAlphaBlendedAntialiased.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\Others\SolidColorTexOverlayAlphaBlendedAntialiased.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\Resources\UI\UIMask.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\Resources\UI\UIMaskLegacy.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\SVG Importer\Plugins\LibTessDotNet\LibTessDotNet-LICENSE.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\AmplifyBloom\Resources\BloomLib.cginc" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\Resources\Solid Fill\SolidColorOpaque.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\SVG Importer\Plugins\Shaders\Resources\Solid Fill\SolidColorAlphaBlended.shader" />
+     <None Include="Assets\AmplifyBloom\Resources\BloomFinal.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="AmplifyBloom">
+ <HintPath>/Users/rayanthony/Documents/Unity/Mineral/Mineral concept/Assets/AmplifyBloom/Plugins/AmplifyBloom.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{A48574D3-A2F9-7B48-AD66-E98F48F2279C}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

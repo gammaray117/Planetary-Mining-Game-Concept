@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 02175aaa61fd54f71b7f6ae20a761c5b
+timeCreated: 1477278860
+licenseType: Free
+NativeFormatImporter:
+  userData: <svg id="Layer_5" data-name="Layer 5" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 360.44 277.55"><defs><style>.cls-1{fill:url(#radial-gradient);}.cls-2{fill:#fff;}</style><radialGradient
+    id="radial-gradient" cx="183.94" cy="138.78" r="130.81" gradientUnits="userSpaceOnUse"><stop
+    offset="0" stop-color="#ff0"/><stop offset="0.69" stop-color="#fff" stop-opacity="0.97"/><stop
+    offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient></defs><title>Sun2</title><circle
+    class="cls-1" cx="183.94" cy="138.78" r="130.81"/><circle class="cls-2" cx="183.94"
+    cy="138.78" r="95.94"/></svg>
+  assetBundleName: 
+  assetBundleVariant: 
